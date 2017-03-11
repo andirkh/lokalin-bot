@@ -32,7 +32,7 @@ const downloadMessage = 'untuk Android bisa download di : \n https://play.google
 const nosearchMessage = 'wah yang kamu cari tidak ada. Mungkin ngetikmu kurang tepat 😉 '
 
 //Route untuk API CALL
-app.post('/lokalin-message', function(req, res) {
+app.post('/lokalin-bot', function(req, res) {
   const {message} = req.body
   console.log('pesan masuk dari ' + message.from.username + ' pesannya ' + message.text);
 
